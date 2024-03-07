@@ -15,6 +15,7 @@ library(knitr)        #
 library(readtext)     #
 library(readr)        #
 library(qtalrkit)     #
+library(fs)           #
 ```
 
 ```{r}
@@ -24,10 +25,17 @@ library(qtalrkit)     #
 #| eval: false
 
 #
+file_url <- "https://github.com/francojc/activ-es/raw/master/activ-es-v.02/corpus/plain.zip"
+
+#
+dir_location <- "../data/original/actives"
+
+#
 get_compressed_data(
-  url = "https://github.com/francojc/activ-es/raw/master/activ-es-v.02/corpus/plain.zip", #
-  target_dir = "data/original/actives" #
-)
+  url = file_url,
+  target_dir = dir_location,
+  confirmed = TRUE
+  )
 ```
 
 ## Data
@@ -171,6 +179,19 @@ You will need to open and edit the `actives_curated_dd.csv` file to add the desc
 #
 read_csv("../data/derived/actives_curated_dd.csv") |>
   kable() #
+```
+
+
+### Project structure
+
+<!-- Description ... -->
+
+```{r}
+#| label: show-directory-structure
+#| echo: false
+
+#
+dir_tree("../", recurse = 2) #
 ```
 
 ## Self-assessment
