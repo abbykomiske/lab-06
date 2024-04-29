@@ -1,0 +1,13 @@
+---
+title: "Lab 06: Taming data (key)"
+description: |
+  You can use this template for Lab 06. However, you will need to add the prose descriptions, add code comments, edit the data dictionary, and complete the self-assessment.
+author: "Abby Komiske"
+bibliography: ["../bibliography.bib"]
+---
+
+## Self-assessment 
+
+In lab 6, we went over ‘taming the data.’ First, we went over the data origin again with the sampling frame, data collection, and schema design. Then, we discussed the data type being uni-structured or semi-structured, as well as its format, which is wide ranging. We focused on CSV. Lastly, we discussed if the metadata is inline, external, or based in a directory structure. Ideally, our data needs to be curated to be tidy without majorly modifying the data. Building on this, we discussed the ideal structure for data we wish to have and the steps to get there. Further, we went over reading the data, cleaning it, organizing it, and writing it with R programming. In the lab, we used The Switchboard Dialog Act Corpus (SWDA) (University of Colorado Boulder 2008), semi-structured data to create an original function into one dataset and document the process [@Francom2014]. 
+
+After we got back on track after our lab difficulties in section 5 and created a new container to do our code in, I was ready for lab 6. I mostly watched the instructor code in class rather than do it myself so that I could follow along more. After engaging with the textbook, class presentation, and recipe, I understood most of the lab. I found 'ideal structure' to be somewhat challenging but understandable. Looking back, this section was very helpful for my project. I returned to this unit for help with my work. 
